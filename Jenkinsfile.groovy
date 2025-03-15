@@ -32,7 +32,7 @@ pipeline{
                             "files": [
                                 {
                                 "pattern": "target/*.jar",
-                                "target": "petclinic-libs-release-local/{1}",
+                                "target": "prabhu-libs-release-local/{1}",
                                 "flat": "false",
                                 "props" : "${properties}",
                                 "exclusions": [ "*.sha1", "*.md5"]
